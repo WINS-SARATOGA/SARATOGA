@@ -4,7 +4,7 @@
 ### Our Team
 
 - Parker Diamond:
-    - Full Name: Joseph Parker Diamond
+    - Full Name: Joseph Parker Diamond
     - Email Address: jparkerdiamond@gmail.com
     - Team Role: Co-Lead, Software Lead
     - Bio: Joseph Parker Diamond is a Computer Science Master's student at the University of Tennessee, Knoxville (UT). He received his Bachelor's in Computer Science in 2017 from UT with a double major in Mathematics. He is currently conducting research with UT's security lab Volsec on onion routing anonymity in the presence of global adversaries, cryptocurrency pool attacks, and opportunistic networking.
