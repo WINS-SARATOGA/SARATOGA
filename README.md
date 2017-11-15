@@ -20,6 +20,8 @@ SARATOGA is intended for any environment that is (1) disconnected from the Inter
 
 ## Technical Implementation
 
+![Architecture](arch.png)
+
 SARATOGA uses two long-distance radios to establish a network connection between users in a disconnected area and an endpoint in a connected area that will relay traffic to the high-speed Internet available in modernized regions. All amateur radio endpoints have two interfaces -- one for sending/receiving conventional network data (802.11 WiFi, Ethernet) and another for sending/receiving data on frequencies used for long-distance transmissions. The endpoints will translate data from the conventional network interfaces into data on long-distance radio frequencies and send that data to each other, allowing geographically distant areas to communicate without the infrastructure overhead of large transcontinental cables. 
 
 The connected area endpoint will operate as an Internet service provider for the disconnected area(s). When the endpoint in the connected area receives data over the long-distance frequency, it will translate this data to conventional network data. The endpoint will route this data and send the response back across the long-distance radio bridge to the disconnected area. The disconnected area endpoint will act as a typical router/switch on a computer network -- it will accept connections from individual devices and translate and send their data over the long-distance radio frequency to the corresponding connected endpoint. A working prototype will ideally support point-to-point communication over 10 kilometers at upwards of 1 megabits per second.
@@ -101,8 +103,8 @@ Since SARATOGA only needs to alter conventional network traffic at one point dur
 
 - **Parker Diamond**
     - **Full Name:** Joseph Parker Diamond
-    - **Email Address:** jparkerdiamond@gmail.com
-    - **Team Role:** Co-Lead, Software Lead
+    - **Email Address:**: jparkerdiamond@gmail.com
+    - **Team Role:**: Co-Lead, Software Lead
     - **Bio:** Joseph Parker Diamond is a Computer Science Master's student at the University of Tennessee, Knoxville (UT). He received his Bachelor's in Computer Science in 2017 from UT with a double major in Mathematics. He is currently conducting research with UT's security lab Volsec on onion routing anonymity in the presence of global adversaries, cryptocurrency pool attacks, and opportunistic networking.
     - **Relevant Background:** https://volsec.eecs.utk.edu/research/
 
