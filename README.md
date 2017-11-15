@@ -25,10 +25,10 @@ SARATOGA uses two long-distance radios to establish a network connection between
 The connected area endpoint will operate as an Internet service provider for the disconnected area(s). When the endpoint in the connected area receives data over the long-distance frequency, it will translate this data to conventional network data. The endpoint will route this data and send the response back across the long-distance radio bridge to the disconnected area. The disconnected area endpoint will act as a typical router/switch on a computer network -- it will accept connections from individual devices and translate and send their data over the long-distance radio frequency to the corresponding connected endpoint. A working prototype will ideally support point-to-point communication over 10 kilometers at upwards of 1 megabits per second.
 
 There are several hurdles to constructing a network bridge over amateur radio frequencies:
-    - Bandwidth, Distance, and Power Trade-Off
-    - Low Singal to Noise Ratio
-    - High Latency
-    - Regulations on Radio Freuqnecies and Transmissions
+   - Bandwidth, Distance, and Power Trade-Off
+   - Low Singal to Noise Ratio
+   - High Latency
+   - Regulations on Radio Freuqnecies and Transmissions
 
 Each of the above is discussed in the following sections.
 
@@ -62,7 +62,7 @@ A standard SARATOGA node can be incredibly lightweight, power efficient, and por
 
 ### Power
 
-The home routers used in SARATOGA are expected to consume on the order of a few watts of power. For example, the Linksys WRT5G data sheet specifies 0.5 A of current at 12 V, or 6 watts according to [http://downloads.linksys.com/downloads/datasheet/wrt54gv8-ds.pdf](LinkSys).  Other comparable home routers are expected to have a similar power draw. This is the minimum required to run a small, short-range node; however, depending on the required range and bandwidth additional power may be needed to run an amplifier. Amplifiers used in amateur radio use power measured in the hundreds of watts. 
+The home routers used in SARATOGA are expected to consume on the order of a few watts of power. For example, the Linksys WRT5G data sheet specifies 0.5 A of current at 12 V, or 6 watts according to [LinkSys](http://downloads.linksys.com/downloads/datasheet/wrt54gv8-ds.pdf).  Other comparable home routers are expected to have a similar power draw. This is the minimum required to run a small, short-range node; however, depending on the required range and bandwidth additional power may be needed to run an amplifier. Amplifiers used in amateur radio use power measured in the hundreds of watts. 
 
 A small node could therefore function for less than 10 watts, while a much larger node could draw up to 1000 watts. As with hardware costs, the exact power usage will vary significantly depending on the exact choice of hardware for the node. The hardware will depend on the deployment conditions, and again, this allows the user to readily scale power consumption with the range desired in a particular deployment scenario.
 
@@ -83,7 +83,7 @@ These projects have had moderate success, which SARATOGA seeks to improve upon w
 
 ## Affordability
 
-SARATOGA aims to re-purpose existing wireless communication devices for longer-range communication, in combination with software techniques to overcome existing limitations. Therefore, SARATOGA uses only low-cost, off-the-shelf hardware, which minimizes the cost for a single node. A single node requires, at a minimum, only a consumer router capable of running the necessary software such as the Linksys WRT5GL, which is available online for about 50 USD as of November 2017 shown here on [https://www.amazon.com/Linksys-WRT54GL-Wireless-G-Broadband-Router/dp/B000BTL0OA](Amazon). This router can run open-source firmware like OpenWRT, which supports modification of network protocols. Antennae can substantially increase range and cost between 100 USD up to thousands of dollars; using a small antenna, we estimate ranges of up to 10 miles with good line of sight. Amplifiers increase range at an additional hardware cost, and amateur radio amplifiers also come at a wide range of power levels and cost, from the low hundreds of dollars into the thousands. In total, we estimate that a minimal functioning node could be built for less than a 100 USD, while an ultra-long-range node could cost several thousand dollars.
+SARATOGA aims to re-purpose existing wireless communication devices for longer-range communication, in combination with software techniques to overcome existing limitations. Therefore, SARATOGA uses only low-cost, off-the-shelf hardware, which minimizes the cost for a single node. A single node requires, at a minimum, only a consumer router capable of running the necessary software such as the Linksys WRT5GL, which is available online for about 50 USD as of November 2017 shown here on [Amazon](https://www.amazon.com/Linksys-WRT54GL-Wireless-G-Broadband-Router/dp/B000BTL0OA). This router can run open-source firmware like OpenWRT, which supports modification of network protocols. Antennae can substantially increase range and cost between 100 USD up to thousands of dollars; using a small antenna, we estimate ranges of up to 10 miles with good line of sight. Amplifiers increase range at an additional hardware cost, and amateur radio amplifiers also come at a wide range of power levels and cost, from the low hundreds of dollars into the thousands. In total, we estimate that a minimal functioning node could be built for less than a 100 USD, while an ultra-long-range node could cost several thousand dollars.
 
 ## Social Impact
 
